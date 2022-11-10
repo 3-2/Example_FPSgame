@@ -370,7 +370,7 @@ function controls(deltaTime) {
 
 const loader = new GLTFLoader().setPath('./models/gltf/');
 
-loader.load('collision-world.glb', (gltf) => {
+loader.load('untitled.glb', (gltf) => {
 
     scene.add(gltf.scene);
 
