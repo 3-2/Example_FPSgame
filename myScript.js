@@ -370,7 +370,7 @@ function controls(deltaTime) {
 
 const loader = new GLTFLoader().setPath('./models/gltf/');
 
-loader.load('untitled.glb', (gltf) => {
+loader.load('untitled2.glb', (gltf) => {
 
     scene.add(gltf.scene);
 
